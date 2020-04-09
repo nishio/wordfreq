@@ -12,3 +12,15 @@ variable	1
 ```
 
 output sample: https://gist.github.com/nishio/409c59f850542905f599d2dd830ad394
+
+
+## in single folder
+```
+$ cat ~/regroup/src/* | ./main.py
+
+```
+
+## with subfolders
+```
+$ find ~/regroup/src/* | xargs cat | ./main.py
+```
