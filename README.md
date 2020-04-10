@@ -16,11 +16,11 @@ output sample: https://gist.github.com/nishio/409c59f850542905f599d2dd830ad394
 
 ## in single folder
 ```
-$ cat ~/regroup/src/* | ./main.py
+$ cat project_dir/src/* | ./main.py
 
 ```
 
 ## with subfolders
 ```
-$ find ~/regroup/src/* | xargs cat | ./main.py
+$ find project_dir/regroup/src/* | xargs cat | ./main.py
 ```
